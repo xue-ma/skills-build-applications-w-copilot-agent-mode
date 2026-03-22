@@ -1,0 +1,79 @@
+.App {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #1f2937; /* dark slate */
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 100%);
+  min-height: 100vh;
+}
+
+/* Navigation */
+.navbar-brand img {
+  height: 48px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+.navbar {
+  background: linear-gradient(90deg, #0ea5a4 0%, #0284c7 100%);
+}
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+
+/* Headings */
+h2 {
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.06);
+}
+th, td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eef2f7;
+}
+th {
+  background: #0369a1;
+  color: #fff;
+  text-align: left;
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(90deg,#06b6d4,#3b82f6);
+  border: none;
+}
+
+/* Links */
+a {
+  color: #0369a1;
+}
+
+/* Cards / lists */
+.card {
+  background: #ffffff;
+  border: 1px solid #e6eef6;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(2,6,23,0.04);
+}
+
+/* Utility spacing */
+.spaced-list li {
+  padding: 8px 0;
+  border-bottom: 1px dashed #f1f5f9;
+}
+
+/* Logo alignment in header */
+.app-header-left {
+  display: flex;
+  align-items: center;
+}
+
+/* small tweaks */
+.container {
+  margin-top: 24px;
+}
